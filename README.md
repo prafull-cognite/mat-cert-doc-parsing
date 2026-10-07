@@ -38,10 +38,17 @@ extraction-output/                extraction-output/
                                     cu-reports/  (.html for humans)
 ```
 
-| Notebook | Service | Best for | Output types |
-|----------|---------|----------|--------------|
-| `notebooks/01-mistral-ocr-and-fields.ipynb` | Mistral Document AI on Azure AI Foundry | Cert type gate, OCR text, structured **field** JSON | `.md` + `.json` |
-| `notebooks/02-content-understanding-tables.ipynb` | Azure Content Understanding `prebuilt-layout` | **Tables** with headers / spec / result rows; HTML review | `.json` + `.html` |
+| Notebook | Service | Best for | Output types | Current Status |
+|----------|---------|----------|--------------|----------------|
+| `notebooks/01-mistral-ocr-and-fields.ipynb` | Mistral Document AI on Azure AI Foundry | Cert type gate, OCR text, structured **field** JSON | `.md` + `.json` | **Not working** (Azure deployment not ready) |
+| `notebooks/02-content-understanding-tables.ipynb` | Azure Content Understanding `prebuilt-layout` | **Tables** with headers / spec / result rows; HTML review | `.json` + `.html` | **Working** (live tested) |
+
+> **Note on Notebook 01:**
+> - **Execution status:** Does not work currently. When calling `process()`, the Mistral Document AI endpoint returns HTTP 400: `DeploymentError: The API deployment for the resource is not ready, please wait until provisioningState becomes Succeeded.` (the model deployment `mistral-document-ai-2505-1` in Azure AI Foundry is not in a succeeded provisioning state).
+> - **Are outputs present in `extraction-output/`? YES.** Outputs from previous runs are already saved and committed under:
+>   - `extraction-output/mistral-ocr/` (`.md` for all 3 sample PDFs)
+>   - `extraction-output/mistral-fields/` (`.json` for all 3 sample PDFs)
+>   You can inspect and consume these files without running the notebook.
 
 **Use both when comparing methods.** Prefer **02** when the question is “does this heat pass Min/Max in the chemistry or tensile table?” Prefer **01** for free-text OCR and annotated field schemas.
 
@@ -222,11 +229,22 @@ Notes:
 
 ### Mistral (notebook 01)
 
-Live smoke against Foundry returned:
+Notebook **01** will currently **not work** if executed. Live calls against the Foundry OCR endpoint (`/providers/mistral/azure/ocr`) return:
 
-`DeploymentError: The API deployment for the resource is not ready, please wait until provisioningState becomes Succeeded.`
+```json
+{
+  "error": {
+    "code": "DeploymentError",
+    "message": "The API deployment for the resource is not ready, please wait until provisioningState becomes Succeeded."
+  }
+}
+```
 
-So notebook **01** is structurally ready (paths / schema / cells), but **cannot be live-tested until the Mistral deployment is Succeeded** in Azure. After that, re-run Setup + process one PDF in `notebooks/01-mistral-ocr-and-fields.ipynb`.
+- **Cause**: The deployment `mistral-document-ai-2505-1` exists in Azure AI Foundry under resource `emb-doc-parsing-dev`, but its Azure `provisioningState` is not `Succeeded` (e.g. provisioning, stopped, or failed state).
+- **Existing outputs present? YES**: Full results generated from successful earlier runs are already present in the repository:
+  - `extraction-output/mistral-ocr/` contains OCR Markdown (`.md`) for all 3 sample certs.
+  - `extraction-output/mistral-fields/` contains structured EN 10204 JSON (`.json`) for all 3 sample certs.
+- **Fix**: Once the administrator ensures the deployment is active and healthy in Azure AI Foundry, re-run Setup and `process(target)` in `notebooks/01-mistral-ocr-and-fields.ipynb`.
 
 ### Manual notebook check
 
