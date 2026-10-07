@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "offline": true,
+  "files": {
+    "147149__02 MELESI MA-00351 mds-DH44": {
+      "api_tables": 26,
+      "page1_tables": 4,
+      "parsed_tables": 26,
+      "html_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "errors": []
+    },
+    "EUR-472273": {
+      "api_tables": 36,
+      "page1_tables": 7,
+      "parsed_tables": 36,
+      "html_pages": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "errors": []
+    },
+    "FMT-22-1454-EZ17": {
+      "api_tables": 40,
+      "page1_tables": 2,
+      "parsed_tables": 40,
+      "html_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17
+      ],
+      "errors": []
+    }
+  }
+}

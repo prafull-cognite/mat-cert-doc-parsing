@@ -1,0 +1,174 @@
+{
+  "cert_number": "22/1454",
+  "cert_type": "3.1",
+  "issue_date": "2022-09-28",
+  "issuer": "Aianox, SAU",
+  "customer": "Framo Flatøy AS",
+  "purchase_order": "1002-PO-002526",
+  "product": {
+    "form": "Casting",
+    "grade": "6A J93380",
+    "uns": null,
+    "specification": [
+      "ASTM A995",
+      "MDS D56 rev 5",
+      "NORSOK M-650, QTR nr 01"
+    ],
+    "dimensions": null,
+    "quantity": 4
+  },
+  "melt_practice": "Induction furnace",
+  "chemical_analysis": [
+    {
+      "heat": "EZ14",
+      "C": 0.024,
+      "Si": 0.65,
+      "Mn": 0.75,
+      "P": 0.023,
+      "S": 0.001,
+      "Cr": 24.77,
+      "Ni": 7.72,
+      "Mo": 3.89,
+      "N": 0.28,
+      "Nb_Ta": null,
+      "Co": 0.65,
+      "Cu": 0.61,
+      "Fe": null,
+      "Al": null,
+      "Ti": null
+    },
+    {
+      "heat": "EZ15",
+      "C": 0.027,
+      "Si": 0.64,
+      "Mn": 0.69,
+      "P": 0.024,
+      "S": 0.001,
+      "Cr": 24.7,
+      "Ni": 7.66,
+      "Mo": 3.91,
+      "N": 0.28,
+      "Nb_Ta": null,
+      "Co": 0.66,
+      "Cu": 0.63,
+      "Fe": null,
+      "Al": null,
+      "Ti": null
+    },
+    {
+      "heat": "EZ16",
+      "C": 0.026,
+      "Si": 0.76,
+      "Mn": 0.71,
+      "P": 0.022,
+      "S": 0.001,
+      "Cr": 24.79,
+      "Ni": 7.58,
+      "Mo": 3.77,
+      "N": 0.26,
+      "Nb_Ta": null,
+      "Co": 0.61,
+      "Cu": 0.59,
+      "Fe": null,
+      "Al": null,
+      "Ti": null
+    },
+    {
+      "heat": "EZ17",
+      "C": 0.024,
+      "Si": 0.7,
+      "Mn": 0.76,
+      "P": 0.022,
+      "S": 0.001,
+      "Cr": 24.68,
+      "Ni": 7.88,
+      "Mo": 3.7,
+      "N": 0.26,
+      "Nb_Ta": null,
+      "Co": 0.63,
+      "Cu": 0.71,
+      "Fe": null,
+      "Al": null,
+      "Ti": null
+    }
+  ],
+  "mechanical_properties": [
+    {
+      "heat": "EZ14",
+      "yield_mpa": 570,
+      "uts_mpa": 779,
+      "elongation_pct": 36,
+      "reduction_area_pct": null
+    },
+    {
+      "heat": "EZ15",
+      "yield_mpa": 529,
+      "uts_mpa": 783,
+      "elongation_pct": 39,
+      "reduction_area_pct": null
+    },
+    {
+      "heat": "EZ16",
+      "yield_mpa": 542,
+      "uts_mpa": 785,
+      "elongation_pct": 38.5,
+      "reduction_area_pct": null
+    },
+    {
+      "heat": "EZ17",
+      "yield_mpa": 520,
+      "uts_mpa": 774,
+      "elongation_pct": 41,
+      "reduction_area_pct": null
+    }
+  ],
+  "impact_test": [
+    {
+      "heat": "EZ14",
+      "temp_c": -46,
+      "energy_j": [
+        161,
+        162,
+        184
+      ]
+    },
+    {
+      "heat": "EZ15",
+      "temp_c": -46,
+      "energy_j": [
+        184,
+        183,
+        166
+      ]
+    },
+    {
+      "heat": "EZ16",
+      "temp_c": -46,
+      "energy_j": [
+        150,
+        173,
+        149
+      ]
+    },
+    {
+      "heat": "EZ17",
+      "temp_c": -46,
+      "energy_j": [
+        187,
+        157,
+        171
+      ]
+    }
+  ],
+  "hardness": null,
+  "heat_treatment": {
+    "type": "Heat to 1120°C, 5 hours/ Decrease to 1050°C, 30°/Water Quench",
+    "temp_c": 1120,
+    "soak": "5 hours",
+    "cooling": "Water Quench"
+  },
+  "grain_size": null,
+  "conforming": true,
+  "signatory": "F. Oribe",
+  "third_party_inspector": null
+}

@@ -1,0 +1,76 @@
+{
+  "cert_number": "EUR-472273",
+  "cert_type": "3.1",
+  "issue_date": "03-Sep-24",
+  "issuer": "HOWCO",
+  "customer": "Aarbakke AS",
+  "purchase_order": "105320 - 1",
+  "product": {
+    "form": "bar, round, hot rolled, annealed, machined",
+    "grade": "Alloy 625",
+    "uns": "N06625",
+    "specification": [
+      "Howco HG 625 Rev. 7",
+      "ASTM B 446-19",
+      "ASTM B 564-22",
+      "ASME BPVC.II.B-2023 SB-446",
+      "ASME BPVC.II.B-2021 SB 564",
+      "ANSI/NACE MR0175-2021/ISO 15156-3:2020",
+      "AMS 5666 K"
+    ],
+    "dimensions": "101.6mm diameter x 1000mm long",
+    "quantity": 1
+  },
+  "melt_practice": "VIM/ESR",
+  "chemical_analysis": [
+    {
+      "heat": "329277",
+      "C": 0.022,
+      "Si": 0.18,
+      "Mn": 0.08,
+      "P": 0.006,
+      "S": 0.001,
+      "Cr": 22.27,
+      "Ni": 59.8,
+      "Mo": 9.12,
+      "N": null,
+      "Nb_Ta": 3.4,
+      "Co": 0.02,
+      "Cu": null,
+      "Fe": 4.44,
+      "Al": 0.23,
+      "Ti": 0.34
+    }
+  ],
+  "mechanical_properties": [
+    {
+      "heat": "329277",
+      "yield_mpa": 450,
+      "uts_mpa": 900,
+      "elongation_pct": 53.8,
+      "reduction_area_pct": 58
+    }
+  ],
+  "impact_test": null,
+  "hardness": [
+    {
+      "heat": "329277",
+      "method": "HBW",
+      "values": [
+        246,
+        266,
+        268
+      ]
+    }
+  ],
+  "heat_treatment": {
+    "type": "Anneal",
+    "temp_c": 920,
+    "soak": "0 h 30 m",
+    "cooling": "Water Quench"
+  },
+  "grain_size": "9",
+  "conforming": true,
+  "signatory": "Christopher Schleif",
+  "third_party_inspector": null
+}

@@ -1,0 +1,22 @@
+.env
+.env.local
+
+#python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+*.pyzwz
+*.pyzwzw
+*.pyzwzwz
+
+
+#repo specific and local development files
+
+
+
+#temp lock, to not send to remote repo

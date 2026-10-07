@@ -1,0 +1,2058 @@
+[
+  {
+    "headers": [
+      [
+        "Pos nr.",
+        "Item No. / No. Pattern No. / Modelo",
+        "Description Descripción",
+        "Nr Pcs Nr Pzs",
+        "Heat nr Nr colada",
+        "Kg/pce Kg/pza"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "60000",
+        "2016-013-1",
+        "Bearing Bracket Se450",
+        "1",
+        "EZ14",
+        "354"
+      ],
+      [
+        "60000",
+        "2016-013-1",
+        "Bearing Bracket Se450",
+        "1",
+        "EZ15",
+        "354"
+      ],
+      [
+        "60000",
+        "2016-013-1",
+        "Bearing Bracket Se450",
+        "1",
+        "EZ16",
+        "354"
+      ],
+      [
+        "60000",
+        "2016-013-1",
+        "Bearing Bracket Se450",
+        "1",
+        "EZ17",
+        "354"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "Heat nr Nr colada",
+        "C",
+        "Mn",
+        "Si",
+        "P",
+        "S",
+        "Ni",
+        "Cr",
+        "Mo",
+        "Nb",
+        "Cu",
+        "N",
+        "V",
+        "W",
+        "Co",
+        "Fe"
+      ]
+    ],
+    "spec_rows": [
+      [
+        "Min. Max.",
+        "0,030",
+        "1,000",
+        "1,000",
+        "0,030",
+        "0,025",
+        "6,500\n8,500",
+        "24,000\n26,000",
+        "3,000\n4,000",
+        "",
+        "0,500\n1,000",
+        "0,200\n0,300",
+        "",
+        "0,500\n1,000",
+        "",
+        ""
+      ]
+    ],
+    "result_rows": [
+      [
+        "EZ14",
+        "0,024",
+        "0,750",
+        "0,650",
+        "0,023",
+        "0,001",
+        "7,720",
+        "24,770",
+        "3,890",
+        "",
+        "0,610",
+        "0,280",
+        "",
+        "0,650",
+        "",
+        ""
+      ],
+      [
+        "EZ15",
+        "0,027",
+        "0,690",
+        "0,640",
+        "0,024",
+        "0,001",
+        "7,660",
+        "24,700",
+        "3,910",
+        "",
+        "0,630",
+        "0,280",
+        "",
+        "0,660",
+        "",
+        ""
+      ],
+      [
+        "EZ16",
+        "0,026",
+        "0,710",
+        "0,760",
+        "0,022",
+        "0,001",
+        "7,580",
+        "24,790",
+        "3,770",
+        "",
+        "0,590",
+        "0,260",
+        "",
+        "0,610",
+        "",
+        ""
+      ],
+      [
+        "EZ17",
+        "0,024",
+        "0,760",
+        "0,700",
+        "0,022",
+        "0,001",
+        "7,880",
+        "24,680",
+        "3,700",
+        "",
+        "0,710",
+        "0,260",
+        "",
+        "0,630",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "",
+        "Tensile Test - Ensayo de tracción ASTM A370",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Impact test - Ensayo de resiliencia ASTM A370 TYPE A",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Heat nr Nr colada",
+        "Temp. ºC",
+        "Rp 0,2% MPa",
+        "Rp 1% MPa",
+        "Rm MPa",
+        "A %",
+        "Z %",
+        "Temp. ºC",
+        "Energy - Energía Jules",
+        "",
+        "",
+        "Latel exp Expn late mils",
+        "Hardness Dureza"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "E1",
+        "E2",
+        "E3",
+        "",
+        ""
+      ]
+    ],
+    "spec_rows": [
+      [
+        "Min. Max.",
+        "20",
+        "450",
+        "",
+        "700",
+        "18,0",
+        "",
+        "-46",
+        "0",
+        "45",
+        "0",
+        "",
+        ""
+      ]
+    ],
+    "result_rows": [
+      [
+        "EZ14",
+        "21",
+        "570",
+        "",
+        "779",
+        "36,0",
+        "",
+        "-46",
+        "161",
+        "162",
+        "184",
+        "",
+        ""
+      ],
+      [
+        "EZ15",
+        "21",
+        "529",
+        "",
+        "783",
+        "39,0",
+        "",
+        "-46",
+        "184",
+        "183",
+        "166",
+        "",
+        ""
+      ],
+      [
+        "EZ16",
+        "21",
+        "542",
+        "",
+        "785",
+        "38,5",
+        "",
+        "-46",
+        "150",
+        "173",
+        "149",
+        "",
+        ""
+      ],
+      [
+        "EZ17",
+        "21",
+        "520",
+        "",
+        "774",
+        "41,0",
+        "",
+        "-46",
+        "187",
+        "157",
+        "171",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "",
+        "Brand Name",
+        "Code",
+        "Colour",
+        "Batch"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Penetrant",
+        "Chemetall",
+        "CHECKMORE 240",
+        "RED",
+        ""
+      ],
+      [
+        "Remover",
+        "",
+        "WATER",
+        "",
+        ""
+      ],
+      [
+        "Developer",
+        "Chemetall",
+        "LD7",
+        "WHITE",
+        ""
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "Surface Temperature",
+        "Penetrating time (min)",
+        "Developing time (min)"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "23 °C",
+        "22",
+        "22"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "No de Informe Report No Procedimiento - Norma Procedure - Standard Equipos Equipment Tipo de ensayo Test type",
+        "INFORME DE ENSAYO TEST REPORT"
+      ],
+      [
+        "",
+        "102802-008C-1\nASTM G-48-A (11)\n53-041.02; 53-075.03; 53-037.07; 53-162.23.\nPITTING CORROSION TEST"
+      ],
+      [
+        "Referencia muestras 1) Samples reference\nDimensiones Dimensions\nCalidad 1) Quality Acabado superficial Surface finishing\nMedio Environment\nTemperatura Temperature\nFecha de ensayo Test date",
+        "Order LAB 09/22 no 08 Batches EZ14; EZ15; EZ16; EZ17.\n49.86 x 24.92 x 4.94 mm ; 49.79 x 24.96 x 4.97 mm. 49.82 x 24.89 x 4.96 mm ; 49.75 x 24.90 x 4.94 mm.\nStainless steel J93380 (ASTM A995 and MDS D56 rev.5)\n120 grit + chemical pickling in (20 % HNO3 + 5 % HF) by weight, to 60 °C for 5 minutes *\nFeCl3 6% by weight\n50 °C\nCondiciones ambientales Atmospheric conditions Duración del ensayo Test time 24 h\n-\n21/09/2022"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "Reference Batch",
+        "Area (cm2)",
+        "Initial weight (g)",
+        "Final weight (g)",
+        "Weight loss",
+        "",
+        "No of pits"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "g/cm2",
+        "g/m2",
+        ""
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "EZ14",
+        "32.24",
+        "47.6617",
+        "47.6617",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "EZ15",
+        "32.29",
+        "47.8721",
+        "47.8719",
+        "6.20x10--6",
+        "0.06",
+        "0"
+      ],
+      [
+        "EZ16",
+        "32.21",
+        "47.7577",
+        "47.7577",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "EZ17",
+        "32.15",
+        "47.7860",
+        "47.7859",
+        "3.11×10--6",
+        "0.03",
+        "0"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "TECNALIA, realizado por Test performed by",
+        "TECNALIA, revisado por Reviewed by",
+        ""
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "J. M. González Laboratory Technician Date: 22/09/2022",
+        "Andrés del Barrio Laboratory Manager Date: 22/09/2022",
+        "Alta"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "",
+        "INFORME DE ENSAYO TEST REPORT",
+        "",
+        ""
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "No Informe Report No.",
+        "102802-008 MT-4",
+        "Fecha de ensayo Test date",
+        "2022/09/19"
+      ],
+      [
+        "Referencia1) Reference1)",
+        "LAB 09/22 N°08 Material: J93380 Coladas: EZ17",
+        "",
+        ""
+      ],
+      [
+        "Procedimiento - Norma Procedure - Standard",
+        "PE-60-MO-022 Rev.4, PE-60-MO-026 Rev.7",
+        "",
+        ""
+      ],
+      [
+        "Tipo de ensayo Test type",
+        "Determination of intermetallic phases, carbide and ferrite percentage in austenoferritic steels (metallographic method).",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "Item Pos",
+        "Measuring acc. Drawing Medida s/ plano",
+        "Control measure Medida control",
+        "Measuring instrument Instrumento de medida",
+        "",
+        "Remarks Observaciones"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "1",
+        "Ø 820 +3/0",
+        "822.20",
+        "CD19",
+        "",
+        ""
+      ],
+      [
+        "2",
+        "Ø 695 0/-3",
+        "694.75",
+        "CD19",
+        "",
+        ""
+      ],
+      [
+        "",
+        "R.15",
+        "15",
+        "-",
+        "",
+        ""
+      ],
+      [
+        "5",
+        "Ø 220 0/-2",
+        "219.01",
+        "MI19",
+        "",
+        ""
+      ],
+      [
+        "10",
+        "80 +2/0",
+        "81.40",
+        "CD09",
+        "",
+        ""
+      ],
+      [
+        "12",
+        "235",
+        "234.90",
+        "CD31",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "CUSTOMER:",
+        "AIANOX S.A."
+      ],
+      [
+        "CUSTOMER ADDRESS:",
+        "CRUCE MARKIJANA, 63, 01479, MURGA, ALAVA"
+      ],
+      [
+        "TEST LOCATION:",
+        "C/ P.I. GRANADA FASE 2 PABELLÓN B3, 48530, ORTUELLA, VIZCAYA"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "PURCHASE ORDER:",
+        "PC-22-1005"
+      ],
+      [
+        "TESTED COMPONENT:",
+        "BEARING BRACKET SE 450"
+      ],
+      [
+        "CUSTOMER REF.:",
+        "2016-013-1"
+      ],
+      [
+        "TEST DATE:",
+        "10/08/2022"
+      ],
+      [
+        "BATCH No:",
+        "-"
+      ],
+      [
+        "EXAMINATION EXTENSION:",
+        "Z. Ind. Customer"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "MANUFACTURING STATUS:",
+        "CASTING"
+      ],
+      [
+        "OTHER REFERENCES:",
+        "CONTRACT: PO-002526"
+      ],
+      [
+        "HEAT N°:",
+        "EZ17"
+      ],
+      [
+        "SERIAL N°:",
+        "--"
+      ],
+      [
+        "MATERIAL:",
+        "J93380"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "N° RAD.",
+        "SECTOR",
+        "THICKNES S",
+        "DENSITY",
+        "VIEWING MODE",
+        "EVALUATION",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "POROSITY",
+        "SAND",
+        "SRINKAGE",
+        "CRACK",
+        "HOT TEAR",
+        "INSERT",
+        "MOTTLING",
+        "SURFACE",
+        "OTHER",
+        "RESULT"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "R1",
+        "1-2",
+        "48-86",
+        "2-4",
+        "P.D.",
+        "A1",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R2",
+        "2-3",
+        "48-86",
+        "2-4",
+        "P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R3",
+        "3-4",
+        "48-86",
+        "2-4",
+        "P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R4",
+        "4-5",
+        "48-86",
+        "2-4",
+        "P.D.",
+        "A1",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R5",
+        "5-6",
+        "48-86",
+        "2-4",
+        "P.D.",
+        "A1",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R6",
+        "6-7",
+        "48-86",
+        "2-4",
+        "P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R7",
+        "7-8",
+        "48-86",
+        "2-4",
+        "P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R8",
+        "8-9",
+        "48-86",
+        "2-4",
+        "P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "REPORT NBR:",
+        "220076FUNORT-OT0001-RT05"
+      ],
+      [
+        "WORK",
+        "220076FUNORT-OT0001"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "N° RAD.",
+        "SECTOR",
+        "THICKNES S",
+        "DENSITY",
+        "VIEWING MODE",
+        "EVALUATION",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "POROSITY",
+        "SAND",
+        "SRINKAGE",
+        "CRACK",
+        "HOT TEAR",
+        "INSERT",
+        "MOTTLING",
+        "SURFACE",
+        "OTHER",
+        "RESULT"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "R9",
+        "9-1",
+        "48-86",
+        "2-4",
+        "P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R10",
+        "1-2",
+        "48-86",
+        "2-4",
+        "P.S.+P.D.",
+        "",
+        "",
+        "CB1",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R11",
+        "2-3",
+        "48-86",
+        "2-4",
+        "P.S.+P.D.",
+        "",
+        "",
+        "CB1",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R12",
+        "3-4",
+        "48-86",
+        "2-4",
+        "P.S.+P.D.",
+        "",
+        "",
+        "CA1",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R13",
+        "4-5",
+        "48-86",
+        "2-4",
+        "P.S.+P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R14",
+        "5-6",
+        "48-86",
+        "2-4",
+        "P.S.+P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R15",
+        "6-7",
+        "48-86",
+        "2-4",
+        "P.S.+P.D.",
+        "",
+        "",
+        "CB1",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R16",
+        "7-8",
+        "48-86",
+        "2-4",
+        "P.S.+P.D.",
+        "",
+        "B1",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R17",
+        "8-9",
+        "48-86",
+        "2-4",
+        "P.S.+P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R18",
+        "9-10",
+        "48-86",
+        "2-4",
+        "P.S.+P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R19",
+        "10-1",
+        "48-86",
+        "2-4",
+        "P.S.+P.D.",
+        "",
+        "",
+        "CA1",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R20",
+        "1-2",
+        "48",
+        "2-4",
+        "P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R21",
+        "2-3",
+        "48",
+        "2-4",
+        "P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A\n9"
+      ],
+      [
+        "R22",
+        "3-4",
+        "48",
+        "2-4",
+        "P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R23",
+        "4-5",
+        "48",
+        "2-4",
+        "P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R24",
+        "5-6",
+        "48",
+        "2-4",
+        "P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R25",
+        "6-7",
+        "48",
+        "2-4",
+        "P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R26",
+        "7-8",
+        "48",
+        "2-4",
+        "P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R27",
+        "8-9",
+        "48",
+        "2-4",
+        "P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "R28",
+        "9-1",
+        "48",
+        "2-4",
+        "P.D.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Customer:",
+        "AIANOX S.A."
+      ],
+      [
+        "End customer:",
+        "AIANOX S.A."
+      ],
+      [
+        "Component identification :",
+        "BEARING BRACKET SE 450"
+      ],
+      [
+        "Material:",
+        "J93380"
+      ],
+      [
+        "Examination Extension:",
+        "Critical zone"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "P/N CUSTOMER",
+        "New P/N CUSTOMER",
+        "P/N END CUSTOMER"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "2016-013-1 Rev.",
+        "2016-013-1 Rev.",
+        "2016-013-1 Rev."
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Testing standard:",
+        "MDS D56 REV.5"
+      ],
+      [
+        "Evaluation standard:",
+        "ASME VIII DIV.1 AP.7"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "Equipment",
+        "Manufacturer",
+        "Model"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Cobalt",
+        "SENTINEL",
+        "680"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Date:",
+        "06/02/2018"
+      ],
+      [
+        "Prepared by:",
+        "VICTOR LALLANA ANDRES LEVEL II"
+      ],
+      [
+        "Approved by:",
+        "JAVIER MACIAS MALDONADO LEVEL III"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "Films size FFilfosrfcatnat",
+        "Films model Films model",
+        "Films manufacturer",
+        "ASTM E1815 classification",
+        "EN-ISO 11699-1 classification"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "15x40",
+        "AA400",
+        "CARESTREAM",
+        "TYPE II",
+        "CLASS C5"
+      ],
+      [
+        "15x40",
+        "MX125",
+        "CARESTREAM",
+        "TYPE I",
+        "CLASS C3"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Front screen thickness (mm)",
+        "0.20",
+        "Front screen material",
+        "Lead"
+      ],
+      [
+        "Back screen thickness (mm)",
+        "0.25",
+        "Back screen material",
+        "Lead"
+      ],
+      [
+        "Intermediate screen thickness (mm)",
+        "--",
+        "Internal screen material",
+        "--"
+      ],
+      [
+        "Front filter",
+        "--",
+        "Filter material",
+        "--"
+      ],
+      [
+        "Backscreen",
+        "--",
+        "Backscreen material",
+        "--"
+      ],
+      [
+        "Cassette type",
+        "Flexible",
+        "Kilovoltage",
+        "N/A"
+      ],
+      [
+        "mA",
+        "N/A",
+        "Required density",
+        "2-4"
+      ],
+      [
+        "Source activity",
+        "45 Co-60",
+        "Geometrical unsharpness",
+        "0.6525292"
+      ],
+      [
+        "Source to film distance",
+        "600",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "IQI",
+        "Position IQI",
+        "Essential wire/hole"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "35-50",
+        "Source side",
+        "2T"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "Films size FRIfosrfcatnat",
+        "Films model Films model",
+        "Films manufacturer",
+        "ASTM E1815 classification",
+        "EN-ISO 11699-1 classification"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "15x40",
+        "AA400",
+        "CARESTREAM",
+        "TYPE II",
+        "CLASS C5"
+      ],
+      [
+        "15x40",
+        "MX125",
+        "CARESTREAM",
+        "TYPE I",
+        "CLASS C3"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Front screen thickness (mm)",
+        "0.20"
+      ],
+      [
+        "Back screen thickness (mm)",
+        "0.25"
+      ],
+      [
+        "Intermediate screen thickness (mm)",
+        "--"
+      ],
+      [
+        "Front filter",
+        "-"
+      ],
+      [
+        "Backscreen",
+        "--"
+      ],
+      [
+        "Cassette type",
+        "Flexible"
+      ],
+      [
+        "mA",
+        "N/A"
+      ],
+      [
+        "Source activity",
+        "45 Co-60"
+      ],
+      [
+        "Source to film distance",
+        "600"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [
+      [
+        "Required density",
+        "2-4"
+      ]
+    ],
+    "result_rows": [
+      [
+        "Front screen material",
+        "Lead"
+      ],
+      [
+        "Back screen material",
+        "Lead"
+      ],
+      [
+        "Internal screen material",
+        "--"
+      ],
+      [
+        "Filter material",
+        "--"
+      ],
+      [
+        "Backscreen material",
+        "--"
+      ],
+      [
+        "Kilovoltage",
+        "N/A"
+      ],
+      [
+        "Geometrical unsharpness",
+        "0.6525292"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "IQI",
+        "Position IQI",
+        "Essential wire/hole"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "35-50",
+        "Source side",
+        "2T"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "Films size FFilfosrfcatnat",
+        "Films model Films model",
+        "Films manufacturer",
+        "ASTM E1815 classification",
+        "EN-ISO 11699-1 classification"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "15x40",
+        "AA400",
+        "CARESTREAM",
+        "TYPE II",
+        "CLASS C5"
+      ],
+      [
+        "15x40",
+        "MX125",
+        "CARESTREAM",
+        "TYPE I",
+        "CLASS C3"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Front screen thickness (mm)",
+        "0.20",
+        "Front screen material",
+        "Lead"
+      ],
+      [
+        "Back screen thickness (mm)",
+        "0.25",
+        "Back screen material",
+        "Lead"
+      ],
+      [
+        "Intermediate screen thickness (mm)",
+        "--",
+        "Internal screen material",
+        "--"
+      ],
+      [
+        "Front filter",
+        "--",
+        "Filter material",
+        "--"
+      ],
+      [
+        "Backscreen",
+        "--",
+        "Backscreen material",
+        "--"
+      ],
+      [
+        "Cassette type",
+        "Flexible",
+        "Kilovoltage",
+        "N/A"
+      ],
+      [
+        "mA",
+        "N/A",
+        "Required density",
+        "2-4"
+      ],
+      [
+        "Source activity",
+        "45 Co-60",
+        "Geometrical unsharpness",
+        "0.6525292"
+      ],
+      [
+        "Source to film distance",
+        "600",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "IQI",
+        "Position IQI",
+        "Essential wire/hole"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "35-50",
+        "Source side",
+        "2T"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "Films size FRlfosrfcatnat",
+        "Films model Films model",
+        "Films manufacturer",
+        "ASTM E1815 classification",
+        "EN-ISO 11699-1 classification"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "30x40",
+        "AA400",
+        "CARESTREAM",
+        "TYPE II",
+        "CLASS C5"
+      ],
+      [
+        "30x40",
+        "MX125",
+        "CARESTREAM",
+        "TYPE I",
+        "CLASS C3"
+      ],
+      [
+        "30x40",
+        "AA400",
+        "CARESTREAM",
+        "TYPE II",
+        "CLASS C5"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Front screen thickness (mm)",
+        "0.20",
+        "Front screen material",
+        "Lead"
+      ],
+      [
+        "Back screen thickness (mm)",
+        "0.25",
+        "Back screen material",
+        "Lead"
+      ],
+      [
+        "Intermediate screen thickness (mm)",
+        "--",
+        "Internal screen material",
+        "--"
+      ],
+      [
+        "Front filter",
+        "--",
+        "Filter material",
+        "--"
+      ],
+      [
+        "Backscreen",
+        "--",
+        "Backscreen material",
+        "--"
+      ],
+      [
+        "Cassette type",
+        "Flexible",
+        "Kilovoltage",
+        "N/A"
+      ],
+      [
+        "mA",
+        "N/A",
+        "Required density",
+        "2-4"
+      ],
+      [
+        "Source activity",
+        "45 Co-60",
+        "Geometrical unsharpness",
+        "0.54625404"
+      ],
+      [
+        "Source to film distance",
+        "700",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "IQI",
+        "Position IQI",
+        "Essential wire/hole"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "35-50",
+        "Source side",
+        "2T"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "Films size FFilfosrfcatnat",
+        "Films model Films model",
+        "Films manufacturer",
+        "ASTM E1815 classification",
+        "EN-ISO 11699-1 classification"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "30x40",
+        "T200",
+        "CARESTREAM",
+        "TYPE I",
+        "CLASS C4"
+      ],
+      [
+        "30x40",
+        "T200",
+        "CARESTREAM",
+        "TYPE I",
+        "CLASS C4"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Front screen thickness (mm)",
+        "0.20",
+        "Front screen material",
+        "Lead"
+      ],
+      [
+        "Back screen thickness (mm)",
+        "0.25",
+        "Back screen material",
+        "Lead"
+      ],
+      [
+        "Intermediate screen thickness (mm)",
+        "--",
+        "Internal screen material",
+        "--"
+      ],
+      [
+        "Front filter",
+        "--",
+        "Filter material",
+        "--"
+      ],
+      [
+        "Backscreen",
+        "--",
+        "Backscreen material",
+        "--"
+      ],
+      [
+        "Cassette type",
+        "Flexible",
+        "Kilovoltage",
+        "N/A"
+      ],
+      [
+        "mA",
+        "N/A",
+        "Required density",
+        "2-4"
+      ],
+      [
+        "Source activity",
+        "10 Co-60",
+        "Geometrical unsharpness",
+        "0.2871166"
+      ],
+      [
+        "Source to film distance",
+        "700",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "IQI",
+        "Position IQI",
+        "Essential wire/hole"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "35",
+        "Source side",
+        "2T"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "Tipo de discontinuidad Discontinuity type",
+        "Designación y niveles de severidad Designation & Severity levels",
+        "Tipo de discontinuidad Discontinuity type",
+        "Designación y niveles de severidad Designation & Severity levels"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Porosidad",
+        "A- (1-6)",
+        "Porosidad\nGas porosity",
+        "A - (1-5)"
+      ],
+      [
+        "Gas & Blowholes",
+        "",
+        "Inclusiones de arena y escorias\nSend & slag inclusions",
+        "B - (1-5)"
+      ],
+      [
+        "Arenas e inclusiones",
+        "B- (1-6)",
+        "Rechupe tipo 1",
+        "CA - ("
+      ],
+      [
+        "Sand spots & inclusiones",
+        "",
+        "Shrinkage type 1",
+        "1-5)"
+      ],
+      [
+        "Rechupe interno Internal shrinkage",
+        "C-(1-6)",
+        "Rechupe tipo 2\nShrinkage type 2",
+        "CB - (1-5)"
+      ],
+      [
+        "Desgarros en caliente",
+        "D- (1-3)",
+        "Rechupe tipo 3\nShrinkage type 3",
+        "CC - (1-5)"
+      ],
+      [
+        "Hot Tears\nGrietas",
+        "E- (1-3)",
+        "Rechupe tipo 4\nShrinkage type 4",
+        "CD - (1-5)"
+      ],
+      [
+        "Cracks\nSoportes de macho no fundido Unfused chaplets",
+        "F-(1-3)",
+        "Grietas\nCrack\nDesgarro en Caliente\nHot Lear",
+        "D-one illustration\nE- one illustration"
+      ],
+      [
+        "Enfriadores internos (no fundidos) Internal Chills",
+        "G- (1-4)",
+        "Inserción\n(Insert)",
+        "F- one illustration"
+      ],
+      [
+        "",
+        "",
+        "Moteado\nMottling",
+        "G- one illustration"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "Tipo de discontinuidad Discontinuity type",
+        "Designación y niveles de severidad Designation & Severity levels",
+        "Tipo de discontinuidad Discontinuity type",
+        "Designación y niveles de severidad Designation & Severity levels"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Porosidad\nGas porosity\nInclusiones de arena y escorias Send & slag inclusions\nRechupe tipo 1\nShrinkage type 1\nRechupe tipo 2\nShrinkage type 2\nRechupe tipo 3\nShrinkage type 3\nGrietas\nCrack\nDesgarro en Caliente\nHot Lear\nInserción (Insert)",
+        "A - (1-5)\nB - (1-5)\nCA - (1-5)\nCB - (1-5)\nCC-(1-5)\nD-one illustration\nE- one illustration\nF- one illustration",
+        "Porosidad\nGas porosity\nInclusiones de arena y escorias\nSend & slag inclusions\nRechupe tipo 1\nShrinkage type 1\nRechupe tipo 2\nShrinkage type 2\nRechupe tipo 3\nShrinkage type 3\nGrietas\nCrack\nDesgarro en Caliente Hot Lear\nInserción (Insert)",
+        "A - (1-5)\nB - (1-5)\nCA - (1-5)\nCB - (1-5)\nCC - (1-5)\nD-one illustration\nE- one illustration\nF- one illustration"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "ABREVIATURAS SYMBOLS",
+        "Modo de Observación Viewing mode",
+        "Felicula Sencilla / Single film Pelicula Doble / Composite film",
+        "\"P.S.\" \"P.D.\""
+      ],
+      [
+        "",
+        "Ningún Defecto No Defects",
+        "S.D.A. (Sin Defectos aparentes)",
+        ""
+      ],
+      [
+        "",
+        "Defectos superficiales",
+        "Ligero / Small\nMedio / Medium\nGrueso / Large",
+        "\"L\"\n\"M\"\n\"G\""
+      ],
+      [
+        "",
+        "Zona Radiografiada Radiographic area",
+        "Aceptada / Accepted Rechazada / Rejected",
+        "\"A\"\n\"R\""
+      ]
+    ]
+  }
+]

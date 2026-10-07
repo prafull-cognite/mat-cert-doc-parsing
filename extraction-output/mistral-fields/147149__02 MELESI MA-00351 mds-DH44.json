@@ -1,0 +1,173 @@
+{
+  "cert_number": "191621 Rev.01",
+  "cert_type": "3.1",
+  "issue_date": "04/04/24",
+  "issuer": "P. OFF. A. MELESI & C.",
+  "customer": "FRAMO FLATOY AS",
+  "purchase_order": "1002-PO-013388",
+  "product": {
+    "form": "Premachined Ring",
+    "grade": "F51/F60",
+    "uns": null,
+    "specification": [
+      "ASTM A182",
+      "QTR Nr. 1",
+      "MDS D44",
+      "MS05"
+    ],
+    "dimensions": [
+      "Øe473xØi300xH145",
+      "Øe473xØi174xH153",
+      "Øe471xØi304xH78"
+    ],
+    "quantity": 6
+  },
+  "melt_practice": "A.O.D.",
+  "chemical_analysis": [
+    {
+      "heat": "278287",
+      "C": 0.014,
+      "Si": 0.39,
+      "Mn": 1.18,
+      "P": 0.026,
+      "S": 0.0,
+      "Cr": 22.47,
+      "Ni": 5.71,
+      "Mo": 3.24,
+      "N": 0.18,
+      "Nb_Ta": null,
+      "Co": null,
+      "Cu": null,
+      "Fe": null,
+      "Al": null,
+      "Ti": null
+    },
+    {
+      "heat": "300309",
+      "C": 0.021,
+      "Si": 0.44,
+      "Mn": 1.19,
+      "P": 0.02,
+      "S": 0.0,
+      "Cr": 22.46,
+      "Ni": 5.76,
+      "Mo": 3.2,
+      "N": 0.18,
+      "Nb_Ta": null,
+      "Co": null,
+      "Cu": null,
+      "Fe": null,
+      "Al": null,
+      "Ti": null
+    },
+    {
+      "heat": "377897",
+      "C": 0.024,
+      "Si": 0.37,
+      "Mn": 1.21,
+      "P": 0.025,
+      "S": 0.0,
+      "Cr": 22.46,
+      "Ni": 5.62,
+      "Mo": 3.17,
+      "N": 0.18,
+      "Nb_Ta": null,
+      "Co": null,
+      "Cu": null,
+      "Fe": null,
+      "Al": null,
+      "Ti": null
+    }
+  ],
+  "mechanical_properties": [
+    {
+      "heat": "278287",
+      "yield_mpa": 549,
+      "uts_mpa": 739,
+      "elongation_pct": 37.48,
+      "reduction_area_pct": 72.47
+    },
+    {
+      "heat": "300309",
+      "yield_mpa": 516,
+      "uts_mpa": 686,
+      "elongation_pct": 35.44,
+      "reduction_area_pct": 71.78
+    },
+    {
+      "heat": "377897",
+      "yield_mpa": 536,
+      "uts_mpa": 715,
+      "elongation_pct": 36.66,
+      "reduction_area_pct": 71.91
+    }
+  ],
+  "impact_test": [
+    {
+      "heat": "278287",
+      "temp_c": -46,
+      "energy_j": [
+        159,
+        164,
+        171
+      ]
+    },
+    {
+      "heat": "300309",
+      "temp_c": -46,
+      "energy_j": [
+        163,
+        172,
+        179
+      ]
+    },
+    {
+      "heat": "377897",
+      "temp_c": -46,
+      "energy_j": [
+        162,
+        169,
+        175
+      ]
+    }
+  ],
+  "hardness": [
+    {
+      "heat": "278287",
+      "method": "Brinell",
+      "values": [
+        159,
+        164,
+        171
+      ]
+    },
+    {
+      "heat": "300309",
+      "method": "Brinell",
+      "values": [
+        163,
+        172,
+        179
+      ]
+    },
+    {
+      "heat": "377897",
+      "method": "Brinell",
+      "values": [
+        162,
+        169,
+        175
+      ]
+    }
+  ],
+  "heat_treatment": {
+    "type": "Solution Annealed",
+    "temp_c": 1060,
+    "soak": "min 1/2 h/inch",
+    "cooling": "quenched water"
+  },
+  "grain_size": null,
+  "conforming": true,
+  "signatory": "Andrea Gubetti",
+  "third_party_inspector": null
+}

@@ -1,0 +1,1195 @@
+[
+  {
+    "headers": [
+      [
+        "N. RIF.",
+        "ITEM",
+        "N / QUANTITY",
+        "DESCRIZIONE / DESCRIPTION / DÉSIGNATION",
+        "NOTE",
+        ""
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "SR1852",
+        "20",
+        "2",
+        "F51/F60\nPREMACHINED RING",
+        "mm Øe473xØi300xH145\nQTR Nr. 1 / MDS D44 / MS05",
+        "A1126"
+      ],
+      [
+        "SR1870",
+        "40",
+        "2",
+        "F51/F60\nPREMACHINED RING",
+        "mm Øe473xØi174xH153",
+        "A1008"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "QTR Nr. 1 / MDS D44 / MS05",
+        ""
+      ],
+      [
+        "SR1906",
+        "60",
+        "2",
+        "F51/F60\nPREMACHINED RING",
+        "mm Øe471xØi304xH78\nQTR Nr. 1 / MDS D44 / MS05",
+        "A1261"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "N.",
+        "MATERIALE / MATERIAL / MATÉRIEL",
+        "HEAT / COULÉE",
+        "ACCIAIERIA / STEEL PLANT / ACIÉRIE",
+        "ORIGIN. CERT. / CERT. D'ORIGIN"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "SR1852",
+        "ASTM A182 F51/F60",
+        "278287",
+        "COGNE Refining method A.O.D.",
+        "2022049752"
+      ],
+      [
+        "SR1870",
+        "ASTM A182 F51/F60",
+        "300309",
+        "COGNE Refining method A.O.D.",
+        "2023008195"
+      ],
+      [
+        "SR1906",
+        "ASTM A182 F51/F60",
+        "377897",
+        "COGNE Refining method A.O.D.",
+        "2023053680"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "N. RIF.\nMin",
+        "ANALISI CHIMICA / CHEMICAL ANALYSIS / COMPOSITION CHIMIQUE",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "C",
+        "Mn",
+        "Si",
+        "P",
+        "S",
+        "Cr",
+        "Ni",
+        "Mo",
+        "N",
+        "",
+        "",
+        "",
+        "",
+        "PRE"
+      ]
+    ],
+    "spec_rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "21,000",
+        "4,500",
+        "2,500",
+        "0,140",
+        "",
+        "",
+        "",
+        "",
+        "35,000"
+      ],
+      [
+        "Max",
+        "0,030",
+        "2,000",
+        "1,000",
+        "0,030",
+        "0,020",
+        "23,000",
+        "6,500",
+        "3,500",
+        "0,200",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "result_rows": [
+      [
+        "SR1852Lad1",
+        "0,014",
+        "1,180",
+        "0,390",
+        "0,026",
+        "0,000",
+        "22,470",
+        "5,710",
+        "3,240",
+        "0,180",
+        "",
+        "",
+        "",
+        "",
+        "36,042"
+      ],
+      [
+        "SR1852Chec",
+        "0,014",
+        "1,200",
+        "0,394",
+        "0,026",
+        "0,000",
+        "22,490",
+        "5,730",
+        "3,250",
+        "0,180",
+        "",
+        "",
+        "",
+        "",
+        "36,100"
+      ],
+      [
+        "SR1870Lad1",
+        "0,021",
+        "1,190",
+        "0,440",
+        "0,020",
+        "0,000",
+        "22,460",
+        "5,760",
+        "3,200",
+        "0,180",
+        "",
+        "",
+        "",
+        "",
+        "35,900"
+      ],
+      [
+        "SR1870Chec",
+        "0,021",
+        "1,190",
+        "0,441",
+        "0,020",
+        "0,000",
+        "22,460",
+        "5,760",
+        "3,200",
+        "0,180",
+        "",
+        "",
+        "",
+        "",
+        "35,900"
+      ],
+      [
+        "SR1906Lad1",
+        "0,024",
+        "1,210",
+        "0,370",
+        "0,025",
+        "0,000",
+        "22,460",
+        "5,620",
+        "3,170",
+        "0,180",
+        "",
+        "",
+        "",
+        "",
+        "35,801"
+      ],
+      [
+        "SR1906Chec",
+        "0,023",
+        "1,120",
+        "0,352",
+        "0,024",
+        "0,000",
+        "22,370",
+        "5,530",
+        "3,120",
+        "0,177",
+        "",
+        "",
+        "",
+        "",
+        "35,500"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "N. RIF.",
+        "PROVE MECCANICHE / MECHANICAL TESTS / ESSAIS MECANIQUES",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Ø mm.",
+        "SO mm.2",
+        "LU mm.",
+        "RS.-YIELD LIMITE\nMPA 450,00",
+        "R.-TENSILE RUPTURE\nMPA 655,00",
+        "A. %-ELONG. ALLONGEM.\n2\" 25,00",
+        "C. %-REDUCT. STRICTION\n45,00",
+        "RESILIENZA / IMPACT TEST / RESILIENCE",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "HARDNESS / DURETÉ\nBrinell 10-3000-30 Max.271"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "MEDIO / AVERAGE MOYEN Joule\n45",
+        "",
+        "MINIMO MINIMUM Joule\n35",
+        "",
+        "TIPO TYPE",
+        "TEMP.\n°℃",
+        ""
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "A1126TRAN",
+        "12,50",
+        "122,65",
+        "50,00",
+        "549,00",
+        "739,00",
+        "37,48",
+        "72,47",
+        "159",
+        "",
+        "164",
+        "171",
+        "KV",
+        "- 46",
+        "212/214"
+      ],
+      [
+        "A1126LONG",
+        "12,50",
+        "122,65",
+        "50,00",
+        "516,00",
+        "686,00",
+        "35,44",
+        "71,78",
+        "163",
+        "",
+        "172",
+        "179",
+        "KV",
+        "- 46",
+        "215/218"
+      ],
+      [
+        "A1008TRAN",
+        "12,50",
+        "122,65",
+        "50,00",
+        "545,00",
+        "705,00",
+        "38,17",
+        "65,60",
+        "157",
+        "",
+        "164",
+        "173",
+        "KV",
+        "- 46",
+        "211/215"
+      ],
+      [
+        "A1008LONG",
+        "12,50",
+        "122,65",
+        "50,00",
+        "488,00",
+        "723,00",
+        "36,49",
+        "67,53",
+        "166",
+        "",
+        "175",
+        "182",
+        "KV",
+        "- 46",
+        "223/226"
+      ],
+      [
+        "A1261TRAN",
+        "12,50",
+        "122,65",
+        "50,00",
+        "536,00",
+        "715,00",
+        "36,66",
+        "71,91",
+        "162",
+        "",
+        "169",
+        "175",
+        "KV",
+        "- 46",
+        "214/216"
+      ],
+      [
+        "A1261LONG",
+        "12,50",
+        "122,65",
+        "50,00",
+        "586,00",
+        "710,00",
+        "42,27",
+        "79,22",
+        "167",
+        "",
+        "176",
+        "184",
+        "KV",
+        "- 46",
+        "226/229"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "Pos Item",
+        "Q.tà Quantity",
+        "Descrizione Description",
+        "Colata Heat",
+        "Cond. Superficiali Surface status"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "20",
+        "2",
+        "F51/F60 PREMACHINED RING mm Øe473xØi300xH145",
+        "278287",
+        "FINITO/FINISHED"
+      ],
+      [
+        "40",
+        "2",
+        "F51/F60 PREMACHINED RING mm Øe473xØi174xH153",
+        "300309",
+        "FINITO/FINISHED"
+      ],
+      [
+        "60",
+        "2",
+        "F51/F60 PREMACHINED RING mm Oe471xOi304xH78",
+        "377897",
+        "FINITO/FINISHED"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "Pos Item",
+        "Q.tà Quantity",
+        "Descrizione Description",
+        "Colata Heat",
+        "Cond. Superficiali Surface status"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "20",
+        "2",
+        "F51/F60 PREMACHINED RING mm Øe473xØi300xH145",
+        "278287",
+        "LAVORATO/MACHINED"
+      ],
+      [
+        "40",
+        "2",
+        "F51/F60 PREMACHINED RING mm Øe473xØi174xH153",
+        "300309",
+        "LAVORATO/MACHINED"
+      ],
+      [
+        "60",
+        "2",
+        "F51/F60 PREMACHINED RING mm Øe471xØi304xH78",
+        "377897",
+        "LAVORATO/MACHINED"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "Tipo / Type",
+        "Matricola / Serial Number",
+        "Costruita da / Manufactured by"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "USN 60",
+        "01H3B5",
+        "GE"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "Tipo Type",
+        "Costruita da Manufactured by",
+        "Matricola S.N.",
+        "Misura Size",
+        "Angolo Angle",
+        "Frequenza Frequency",
+        "Ampl. di regolazione Setting ampl."
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "SEB2 E",
+        "GE Sensing&Inspection Technologies",
+        "57467-50712",
+        "6 X 20 mm",
+        "",
+        "2 MHz",
+        ""
+      ],
+      [
+        "B2S",
+        "GE Sensing&Inspection Technologies",
+        "57745-71949",
+        "24 mm",
+        "",
+        "2 MHz",
+        ""
+      ],
+      [
+        "MWB45-2E",
+        "GE Sensing&Inspection Technologies",
+        "56921-500041",
+        "8 X 9 mm",
+        "45°",
+        "2 MHz",
+        ""
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "☒ Unaffected structure",
+        "The ferrite has been etched without revelationi of intermetallic phase The interphase boundaries are smooth"
+      ],
+      [
+        "☐ Possibly Affected Structure",
+        "The ferrite has been etched with isolated indications of possible intermetallic phase The interphase boundaries may show a fine wavines"
+      ],
+      [
+        "☐ Affected Structure",
+        "The indications of an intermetallic phase are readily revealed before or simultaneously with the staining of the ferrite during etching"
+      ],
+      [
+        "☐ Centerline Structure",
+        "An intermetallic phase is observed as a continuous or semi-continuous phase in the mid-thickness region of the product, with or without the affected structure outside of the mid-thickness region, indicative of segregation"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "☒ Unaffected structure",
+        "The ferrite has been etched without revelationi of intermetallic phase The interphase boundaries are smooth"
+      ],
+      [
+        "☐ Possibly Affected Structure",
+        "The ferrite has been etched with isolated indications of possible intermetallic phase The interphase boundaries may show a fine wavines"
+      ],
+      [
+        "☐ Affected Structure",
+        "The indications of an intermetallic phase are readily revealed before or simultaneously with the staining of the ferrite during etching"
+      ],
+      [
+        "☐ Centerline Structure",
+        "An intermetallic phase is observed as a continuous or semi-continuous phase in the mid-thickness region of the product, with or without the affected structure outside of the mid-thickness region, indicative of segregation"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "☒ Unaffected structure",
+        "The ferrite has been etched without revelationi of intermetallic phase The interphase boundaries are smooth"
+      ],
+      [
+        "☐ Possibly Affected Structure",
+        "The ferrite has been etched with isolated indications of possible intermetallic phase The interphase boundaries may show a fine wavines"
+      ],
+      [
+        "☐ Affected Structure",
+        "The indications of an intermetallic phase are readily revealed before or simultaneously with the staining of the ferrite during etching"
+      ],
+      [
+        "☐ Centerline Structure",
+        "An intermetallic phase is observed as a continuous or semi-continuous phase in the mid-thickness region of the product, with or without the affected structure outside of the mid-thickness region, indicative of segregation"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Informazioni generali General info",
+        ""
+      ],
+      [
+        "Descrizione prova Test description",
+        "Frazione di vol. mediante sistematico conteggio manuale di punti Volume fraction by Systematic Manual Point Count"
+      ],
+      [
+        "Standard di prova Test standard",
+        "ASTM E562-19"
+      ],
+      [
+        "Strumentazione Equipment",
+        "Metallographic microscope Leica DMi8 M (OAM n°1631)"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Posizione di Prelievo Sample Position",
+        "Superficie esterna External surface"
+      ],
+      [
+        "Vv :% Frazione di volume della ferrite ± 95% C.I. [%] % Volume fraction of the constituent ± 95% C.L.",
+        "49,25 ± 1,69"
+      ],
+      [
+        "Posizione di Prelievo Sample Position",
+        "Superficie interna Internal surface"
+      ],
+      [
+        "Vv :% Frazione di volume della ferrite ± 95% C.I. [%] % Volume fraction of the constituent ± 95% C.L.",
+        "50,12 ± 1,58"
+      ],
+      [
+        "Posizione di Prelievo Sample Position",
+        "Metà Spessore (T/2) Mid Thickness (T/2)"
+      ],
+      [
+        "Vv :% Frazione di volume della ferrite ± 95% C.I. [%] % Volume fraction of the constituent ± 95% C.L.",
+        "49,99 ± 1,85"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "☒ Unaffected structure",
+        "The ferrite has been etched without revelationi of intermetallic phase The interphase boundaries are smooth"
+      ],
+      [
+        "☐ Possibly Affected Structure",
+        "The ferrite has been etched with isolated indications of possible intermetallic phase The interphase boundaries may show a fine wavines"
+      ],
+      [
+        "☐ Affected Structure",
+        "The indications of an intermetallic phase are readily revealed before or simultaneously with the staining of the ferrite during etching"
+      ],
+      [
+        "☐ Centerline Structure",
+        "An intermetallic phase is observed as a continuous or semi-continuous phase in the mid-thickness region of the product, with or without the affected structure outside of the mid-thickness region, indicative of segregation"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "☒ Unaffected structure",
+        "The ferrite has been etched without revelationi of intermetallic phase The interphase boundaries are smooth"
+      ],
+      [
+        "☐ Possibly Affected Structure",
+        "The ferrite has been etched with isolated indications of possible intermetallic phase The interphase boundaries may show a fine wavines"
+      ],
+      [
+        "☐ Affected Structure",
+        "The indications of an intermetallic phase are readily revealed before or simultaneously with the staining of the ferrite during etching"
+      ],
+      [
+        "☐ Centerline Structure",
+        "An intermetallic phase is observed as a continuous or semi-continuous phase in the mid-thickness region of the product, with or without the affected structure outside of the mid-thickness region, indicative of segregation"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "☒ Unaffected structure",
+        "The ferrite has been etched without revelationi of intermetallic phase The interphase boundaries are smooth"
+      ],
+      [
+        "☐ Possibly Affected Structure",
+        "The ferrite has been etched with isolated indications of possible intermetallic phase The interphase boundaries may show a fine wavines"
+      ],
+      [
+        "☐ Affected Structure",
+        "The indications of an intermetallic phase are readily revealed before or simultaneously with the staining of the ferrite during etching"
+      ],
+      [
+        "☐ Centerline Structure",
+        "An intermetallic phase is observed as a continuous or semi-continuous phase in the mid-thickness region of the product, with or without the affected structure outside of the mid-thickness region, indicative of segregation"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Informazioni generali General info",
+        ""
+      ],
+      [
+        "Descrizione prova Test description",
+        "Frazione di vol. mediante sistematico conteggio manuale di punti Volume fraction by Systematic Manual Point Count"
+      ],
+      [
+        "Standard di prova Test standard",
+        "ASTM E562-19"
+      ],
+      [
+        "Strumentazione Equipment",
+        "Metallographic microscope Leica DMi8 M (OAM n°1631)"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Posizione di Prelievo Sample Position",
+        "Superficie esterna External surface"
+      ],
+      [
+        "Vv :% Frazione di volume della ferrite ± 95% C.I. [%] % Volume fraction of the constituent ± 95% C.L.",
+        "46,08 ± 2,04"
+      ],
+      [
+        "Posizione di Prelievo Sample Position",
+        "Superficie interna Internal surface"
+      ],
+      [
+        "Vv :% Frazione di volume della ferrite ± 95% C.I. [%] % Volume fraction of the constituent ± 95% C.L.",
+        "47,77 ± 1,36"
+      ],
+      [
+        "Posizione di Prelievo Sample Position",
+        "Metà Spessore (T/2) Mid Thickness (T/2)"
+      ],
+      [
+        "Vv :% Frazione di volume della ferrite ± 95% C.I. [%] % Volume fraction of the constituent ± 95% C.L.",
+        "48,01 ± 1,44"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "☒ Unaffected structure",
+        "The ferrite has been etched without revelationi of intermetallic phase The interphase boundaries are smooth"
+      ],
+      [
+        "☐ Possibly Affected Structure",
+        "The ferrite has been etched with isolated indications of possible intermetallic phase The interphase boundaries may show a fine wavines"
+      ],
+      [
+        "☐ Affected Structure",
+        "The indications of an intermetallic phase are readily revealed before or simultaneously with the staining of the ferrite during etching"
+      ],
+      [
+        "☐ Centerline Structure",
+        "An intermetallic phase is observed as a continuous or semi-continuous phase in the mid-thickness region of the product, with or without the affected structure outside of the mid-thickness region, indicative of segregation"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "☒ Unaffected structure",
+        "The ferrite has been etched without revelationi of intermetallic phase The interphase boundaries are smooth"
+      ],
+      [
+        "☐ Possibly Affected Structure",
+        "The ferrite has been etched with isolated indications of possible intermetallic phase The interphase boundaries may show a fine wavines"
+      ],
+      [
+        "☐ Affected Structure",
+        "The indications of an intermetallic phase are readily revealed before or simultaneously with the staining of the ferrite during etching"
+      ],
+      [
+        "☐ Centerline Structure",
+        "An intermetallic phase is observed as a continuous or semi-continuous phase in the mid-thickness region of the product, with or without the affected structure outside of the mid-thickness region, indicative of segregation"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "☒ Unaffected structure",
+        "The ferrite has been etched without revelationi of intermetallic phase The interphase boundaries are smooth"
+      ],
+      [
+        "☐ Possibly Affected Structure",
+        "The ferrite has been etched with isolated indications of possible intermetallic phase The interphase boundaries may show a fine wavines"
+      ],
+      [
+        "☐ Affected Structure",
+        "The indications of an intermetallic phase are readily revealed before or simultaneously with the staining of the ferrite during etching"
+      ],
+      [
+        "☐ Centerline Structure",
+        "An intermetallic phase is observed as a continuous or semi-continuous phase in the mid-thickness region of the product, with or without the affected structure outside of the mid-thickness region, indicative of segregation"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Informazioni generali General info",
+        ""
+      ],
+      [
+        "Descrizione prova Test description",
+        "Frazione di vol. mediante sistematico conteggio manuale di punti Volume fraction by Systematic Manual Point Count"
+      ],
+      [
+        "Standard di prova Test standard",
+        "ASTM E562-19"
+      ],
+      [
+        "Strumentazione Equipment",
+        "Metallographic microscope Leica DMi8 M (OAM n°1631)"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Posizione di Prelievo Sample Position",
+        "Superficie esterna External surface"
+      ],
+      [
+        "Vv :% Frazione di volume della ferrite ± 95% C.I. [%] % Volume fraction of the constituent ± 95% C.L.",
+        "46,55 ± 1,30"
+      ],
+      [
+        "Posizione di Prelievo Sample Position",
+        "Superficie interna Internal surface"
+      ],
+      [
+        "Vv :% Frazione di volume della ferrite ± 95% C.I. [%] % Volume fraction of the constituent ± 95% C.L.",
+        "46,98 ± 1,42"
+      ],
+      [
+        "Posizione di Prelievo Sample Position",
+        "Metà Spessore (T/2) Mid Thickness (T/2)"
+      ],
+      [
+        "Vv :% Frazione di volume della ferrite ± 95% C.I. [%] % Volume fraction of the constituent ± 95% C.L.",
+        "47,23 ± 1,03"
+      ]
+    ]
+  },
+  {
+    "headers": [
+      [
+        "Item",
+        "Q.ty",
+        "Description",
+        "Heat Number",
+        "Area Tested",
+        "Result [HB]"
+      ]
+    ],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "20",
+        "2",
+        "F51/F60 PREMACHINED RING",
+        "278287",
+        "BODY",
+        "223 - 223 - 217 - 216"
+      ],
+      [
+        "60",
+        "2",
+        "F51/F60 PREMACHINED RING",
+        "377897",
+        "BODY",
+        "221 - 226 - 210 - 226"
+      ],
+      [
+        "40",
+        "2",
+        "F51/F60 PREMACHINED RING",
+        "300309",
+        "BODY",
+        "223 - 221 - 214 - 220"
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "CHEMICAL LADLE ANALYSIS ACCORDING TO ASTM A751 - EN ISO 14284",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Control lot",
+        "No. - Weight : 020000944860",
+        "-",
+        "83.888",
+        "KG",
+        "-",
+        "184.938",
+        "LB",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "ELEMENTS",
+        "",
+        "C",
+        "Si",
+        "Mn",
+        "P",
+        "S",
+        "N",
+        "Al",
+        "Cr",
+        "Mo",
+        "Ni"
+      ],
+      [
+        "MEASUREMENT",
+        "UNIT",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "% w/w"
+      ],
+      [
+        "OBTAINED",
+        "",
+        "0,014",
+        "0,39",
+        "1,18",
+        "0,026",
+        "0,0009",
+        "0,18",
+        "0,006",
+        "22,47",
+        "3,24",
+        "5,71"
+      ],
+      [
+        "ELEMENTS",
+        "",
+        "Cu",
+        "Sn",
+        "Co",
+        "B",
+        "CV F8",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "MEASUREMENT",
+        "UNIT",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "OBTAINED",
+        "",
+        "0,26",
+        "0,006",
+        "0,13",
+        "0,0023",
+        "36",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "CV F8 =",
+        "CR+3.3*MO+16*N2",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "headers": [],
+    "spec_rows": [],
+    "result_rows": [
+      [
+        "Control lot",
+        "No. - Weight : 020000987188",
+        "",
+        "79.241",
+        "KG",
+        "",
+        "174.694",
+        "LB",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "ELEMENTS",
+        "",
+        "C",
+        "Si",
+        "Mn",
+        "P",
+        "S",
+        "N",
+        "Al",
+        "Cr",
+        "Mo",
+        "Ni"
+      ],
+      [
+        "MEASUREMENT",
+        "UNIT",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "% w/w"
+      ],
+      [
+        "OBTAINED",
+        "",
+        "0,024",
+        "0,37",
+        "1,21",
+        "0,025",
+        "0,0005",
+        "0,18",
+        "0,006",
+        "22,46",
+        "3,17",
+        "5,62"
+      ],
+      [
+        "ELEMENTS",
+        "",
+        "Cu",
+        "Sn",
+        "Co",
+        "B",
+        "CV F8",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "MEASUREMENT",
+        "UNIT",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "% w/w",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "OBTAINED",
+        "",
+        "0,21",
+        "0,005",
+        "0,14",
+        "0,0022",
+        "36",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "CV F8 =",
+        "CR+3.3*MO+16*N2",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  }
+]
