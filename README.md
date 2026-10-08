@@ -10,6 +10,19 @@ PDFs are messy: cover sheets, multi-language tables, and long NDT / metallograph
 
 ---
 
+## Get started
+
+Uses [uv](https://docs.astral.sh/uv/) (Python ≥3.11). From the repo root:
+
+```bash
+uv sync
+uv run jupyter notebook
+```
+
+Update `.env` with your Azure keys and secrets (see `env-example`).
+
+---
+
 ## Problem
 
 | Challenge | Why it hurts |
@@ -80,7 +93,7 @@ The analysis result is a JSON document. Important shape:
 5. Render tables **grouped by page** to HTML → `extraction-output/cu-reports/<stem>.html` (local only; no API). Hooked into `save_layout`, or run:
 
 ```bash
-python scripts/layout_json_to_html.py
+uv run python scripts/layout_json_to_html.py
 ```
 
 UI tip: the Foundry / Content Understanding UI often shows tables **for the page you are viewing**. A 20-page PDF can contain many tables overall; page 1 of a MELESI cert may show ~6 clean tables while later pages hold appendix tables.
@@ -114,6 +127,8 @@ mat-cert-doc-parsing/
 │   └── 02-mistral-foundry-early-pipeline.ipynb
 ├── guides/
 │   └── EN10204-reference.md           ← EN 10204 types / fields notes
+├── pyproject.toml / uv.lock           ← uv project + locked deps
+├── env-example                        ← copy to .env (do not commit .env)
 ├── scripts/
 │   ├── layout_json_to_html.py         ← cu-layout JSON → cu-reports HTML
 │   └── validate_pipeline.py           ← live/offline CU + HTML fixture checks
@@ -141,37 +156,6 @@ mat-cert-doc-parsing/
 
 ---
 
-## Quick start
-
-1. Copy credentials into `.env` (see below). Never commit `.env`.
-2. Put PDFs in `raw-docs/`.
-3. Open **`notebooks/02-content-understanding-tables.ipynb`** (tables) and/or **`notebooks/01-mistral-ocr-and-fields.ipynb`** (fields).
-4. Run Setup, then process one file (or batch when you intend to spend API quota).
-5. Review:
-   - Humans: `extraction-output/cu-reports/<name>.html` beside the PDF.
-   - Machines: `cu-tables/` and/or `mistral-fields/`.
-
-Notebooks resolve the **repo root** automatically (works if the kernel cwd is the repo root or `notebooks/`).
-
-### Required environment variables
-
-**Content Understanding (notebook 02)**
-
-```env
-AZURE_CONTENT_UNDERSTANDING_ENDPOINT=https://<resource>.services.ai.azure.com/
-AZURE_CONTENT_UNDERSTANDING_KEY=<key>
-```
-
-**Mistral Document AI (notebook 01)**
-
-```env
-AZURE_MISTRAL_DOCUMENT_AI_ENDPOINT=https://<resource>.services.ai.azure.com/...
-AZURE_MISTRAL_DOCUMENT_AI_KEY=<key>
-AZURE_AI_DEPLOYMENT_NAME=<deployment-name>
-```
-
----
-
 ## Suggested reading order for a new contributor
 
 1. This `README.md` (problem + which notebook).
@@ -192,10 +176,10 @@ From the repo root:
 
 ```bash
 # Live: call Content Understanding on every PDF in raw-docs/, rewrite outputs, run fixtures
-python scripts/validate_pipeline.py
+uv run python scripts/validate_pipeline.py
 
 # Offline: reuse existing cu-layout JSON, rebuild cu-tables + cu-reports, re-check fixtures
-python scripts/validate_pipeline.py --offline
+uv run python scripts/validate_pipeline.py --offline
 ```
 
 Writes `extraction-output/validation-report.json` (`ok: true/false` per file).
