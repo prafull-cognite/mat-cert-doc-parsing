@@ -24,5 +24,8 @@ _deslop_dump.txt
 #temp lock, to not send to remote repo
 _*
 
+
+
 #cursor local
 .cursor/plans
+*.code-workspace
