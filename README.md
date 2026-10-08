@@ -40,7 +40,7 @@ extraction-output/                extraction-output/
 
 | Notebook | Service | Best for | Output types | Current Status |
 |----------|---------|----------|--------------|----------------|
-| `notebooks/00-content-understanding-intro.ipynb` | Azure Content Understanding `prebuilt-layout` | **Tutorial** — endpoints, call arguments, response structure, reading a table (page 1 of each cert) | none (inline only) | **Working** (live tested) |
+| `notebooks/00-content-understanding-intro.ipynb` | Azure Content Understanding `prebuilt-layout` | **Tutorial** — endpoints, call arguments, response structure, with every element drawn on the page image; one PDF + page, swappable via `PDF_PATH` / `PAGE` | none (inline only) | **Working** (live tested) |
 | `notebooks/01-mistral-ocr-and-fields.ipynb` | Mistral Document AI on Azure AI Foundry | Cert type gate, OCR text, structured **field** JSON | `.md` + `.json` | **Not working** — Azure deployment error (see [Mistral (notebook 01)](#mistral-notebook-01)) |
 | `notebooks/02-content-understanding-tables.ipynb` | Azure Content Understanding `prebuilt-layout` | **Tables** with headers / spec / result rows; HTML review | `.json` + `.html` | **Working** (live tested) |
 
@@ -52,7 +52,7 @@ Older experiments live under `archive/` — do **not** run them for day-to-day w
 
 ## How Content Understanding is used here
 
-> New to Content Understanding? Run `notebooks/00-content-understanding-intro.ipynb` first: a short, low-code walkthrough of the REST endpoints, the `begin_analyze_binary` arguments, and every part of the response (`markdown`, `pages`, `paragraphs`, `tables`, `figures`) on page 1 of each cert. Official Microsoft samples: [azure-ai-content-understanding-python](https://github.com/Azure-Samples/azure-ai-content-understanding-python) · [REST reference 2025-11-01](https://learn.microsoft.com/en-us/rest/api/contentunderstanding/content-analyzers?view=rest-contentunderstanding-2025-11-01).
+> New to Content Understanding? Run `notebooks/00-content-understanding-intro.ipynb` first: a short, low-code walkthrough of the REST endpoints, the `begin_analyze_binary` arguments, and every part of the response (`markdown`, `pages`, `paragraphs`, `tables`, `figures`) on one page of one cert (swap `PDF_PATH` / `PAGE` in Setup). Official Microsoft samples: [azure-ai-content-understanding-python](https://github.com/Azure-Samples/azure-ai-content-understanding-python) · [REST reference 2025-11-01](https://learn.microsoft.com/en-us/rest/api/contentunderstanding/content-analyzers?view=rest-contentunderstanding-2025-11-01).
 
 ### What we call
 
