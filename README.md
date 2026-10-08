@@ -40,23 +40,19 @@ extraction-output/                extraction-output/
 
 | Notebook | Service | Best for | Output types | Current Status |
 |----------|---------|----------|--------------|----------------|
-| `notebooks/01-mistral-ocr-and-fields.ipynb` | Mistral Document AI on Azure AI Foundry | Cert type gate, OCR text, structured **field** JSON | `.md` + `.json` | **Not working** (Azure deployment not ready) |
+| `notebooks/00-content-understanding-intro.ipynb` | Azure Content Understanding `prebuilt-layout` | **Tutorial** — endpoints, call arguments, response structure, reading a table (page 1 of each cert) | none (inline only) | **Working** (live tested) |
+| `notebooks/01-mistral-ocr-and-fields.ipynb` | Mistral Document AI on Azure AI Foundry | Cert type gate, OCR text, structured **field** JSON | `.md` + `.json` | **Not working** — Azure deployment error (see [Mistral (notebook 01)](#mistral-notebook-01)) |
 | `notebooks/02-content-understanding-tables.ipynb` | Azure Content Understanding `prebuilt-layout` | **Tables** with headers / spec / result rows; HTML review | `.json` + `.html` | **Working** (live tested) |
 
-> **Note on Notebook 01:**
-> - **Execution status:** Does not work currently. When calling `process()`, the Mistral Document AI endpoint returns HTTP 400: `DeploymentError: The API deployment for the resource is not ready, please wait until provisioningState becomes Succeeded.` (the model deployment `mistral-document-ai-2505-1` in Azure AI Foundry is not in a succeeded provisioning state).
-> - **Are outputs present in `extraction-output/`? YES.** Outputs from previous runs are already saved and committed under:
->   - `extraction-output/mistral-ocr/` (`.md` for all 3 sample PDFs)
->   - `extraction-output/mistral-fields/` (`.json` for all 3 sample PDFs)
->   You can inspect and consume these files without running the notebook.
-
-**Use both when comparing methods.** Prefer **02** when the question is “does this heat pass Min/Max in the chemistry or tensile table?” Prefer **01** for free-text OCR and annotated field schemas.
+**Use both when comparing methods.** Prefer **02** when the question is “does this heat pass Min/Max in the chemistry or tensile table?” Prefer **01** for free-text OCR and annotated field schemas. Note that pre-generated outputs for notebook 01 are already present in `extraction-output/`.
 
 Older experiments live under `archive/` — do **not** run them for day-to-day work.
 
 ---
 
 ## How Content Understanding is used here
+
+> New to Content Understanding? Run `notebooks/00-content-understanding-intro.ipynb` first: a short, low-code walkthrough of the REST endpoints, the `begin_analyze_binary` arguments, and every part of the response (`markdown`, `pages`, `paragraphs`, `tables`, `figures`) on page 1 of each cert. Official Microsoft samples: [azure-ai-content-understanding-python](https://github.com/Azure-Samples/azure-ai-content-understanding-python) · [REST reference 2025-11-01](https://learn.microsoft.com/en-us/rest/api/contentunderstanding/content-analyzers?view=rest-contentunderstanding-2025-11-01).
 
 ### What we call
 
@@ -110,6 +106,7 @@ mat-cert-doc-parsing/
 ├── .env                               ← secrets (not committed)
 ├── raw-docs/                          ← input PDFs
 ├── notebooks/                                ← ACTIVE notebooks (run these)
+│   ├── 00-content-understanding-intro.ipynb   ← CU tutorial (start here)
 │   ├── 01-mistral-ocr-and-fields.ipynb
 │   └── 02-content-understanding-tables.ipynb
 ├── archive/                           ← historical notebooks (do not run)
@@ -178,11 +175,12 @@ AZURE_AI_DEPLOYMENT_NAME=<deployment-name>
 ## Suggested reading order for a new contributor
 
 1. This `README.md` (problem + which notebook).
-2. `guides/EN10204-reference.md` (what a Type 3.1 cert should contain).
-3. Open one PDF from `raw-docs/` and the matching `cu-reports/*.html`.
-4. Skim `cu-tables/*.json` for the same stem — look for `spec_rows` vs `result_rows`.
-5. Only then open `cu-layout/*.json` if you need raw API detail.
-6. Ignore `archive/` unless you are studying history.
+2. `notebooks/00-content-understanding-intro.ipynb` (how the CU API works and what it returns).
+3. `guides/EN10204-reference.md` (what a Type 3.1 cert should contain).
+4. Open one PDF from `raw-docs/` and the matching `cu-reports/*.html`.
+5. Skim `cu-tables/*.json` for the same stem — look for `spec_rows` vs `result_rows`.
+6. Only then open `cu-layout/*.json` if you need raw API detail.
+7. Ignore `archive/` unless you are studying history.
 
 ---
 
